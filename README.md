@@ -9,7 +9,8 @@ Key Words: Asset management, object detection, deep learning, geographic informa
 <img width="592" alt="image" src="https://github.com/maedemir/smart-road-asset-management-system/assets/72692826/a557429b-3021-4fec-8663-42eb87e7a050">
 
 ## Depth Estimation Using ZoeDepth
-<img width="610" alt="image" src="https://github.com/maedemir/smart-road-asset-management-system/assets/72692826/951e88f0-2bb8-454a-be11-609918fb515f">
+<img width="440" alt="image" src="https://github.com/maedemir/smart-road-asset-management-system/assets/72692826/db105ba8-f618-4720-9395-934cfd187cd8">
+
 
 ## QGIS Visualization of Assets
 <img width="596" alt="image" src="https://github.com/maedemir/smart-road-asset-management-system/assets/72692826/0b46ba0d-6c51-4f30-93b0-e15e322fb5ba">
