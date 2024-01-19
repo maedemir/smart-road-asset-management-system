@@ -8,4 +8,7 @@ Key Words: Asset management, object detection, deep learning, geographic informa
 <img width="592" alt="image" src="https://github.com/maedemir/smart-road-asset-management-system/assets/72692826/a557429b-3021-4fec-8663-42eb87e7a050">
 
 
+<img width="610" alt="image" src="https://github.com/maedemir/smart-road-asset-management-system/assets/72692826/951e88f0-2bb8-454a-be11-609918fb515f">
+
+
 Note: for accessing the dataset, please contact me: maedemir@student.ubc.ca
