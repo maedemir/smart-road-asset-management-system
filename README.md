@@ -5,5 +5,7 @@ The goal of this project is to create an intelligent system for road asset manag
 
 Key Words: Asset management, object detection, deep learning, geographic information system (GIS)
 
+<img width="592" alt="image" src="https://github.com/maedemir/smart-road-asset-management-system/assets/72692826/a557429b-3021-4fec-8663-42eb87e7a050">
+
 
 Note: for accessing the dataset, please contact me: maedemir@student.ubc.ca
