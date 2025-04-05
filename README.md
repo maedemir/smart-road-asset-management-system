@@ -6,8 +6,6 @@ This repository contains the code for my B.Sc. Final Project in Computer Enginee
 
 - [Overview](#overview)
 - [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Results](#results)
 - [Future Work](#future-work)
@@ -34,37 +32,4 @@ This project leverages state-of-the-art techniques such as deep learning-based o
 - **User-friendly Interface:** Provides clear visualizations and reports for quick decision-making.
 - **Scalable Architecture:** Designed to process large datasets and adaptable to various environments.
 
-## Installation
-
-To set up the project locally, follow these steps:
-
-1. **Clone the repository:**
-
-    ```bash
-    git clone https://github.com/yourusername/Smart-Road-Asset-Management-System.git
-    ```
-
-2. **Navigate to the project directory:**
-
-    ```bash
-    cd Smart-Road-Asset-Management-System
-    ```
-
-3. **Install dependencies:**
-
-    Ensure you have Python 3.8+ installed. Then run:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4. **Configure Environment:**
-
-    Modify the configuration files (if any) to set paths for your datasets, models, and output directories. Make sure to configure the connection to your PostGIS database.
-
-## Usage
-
-Run the main script to start the system:
-
-```bash
-python src/main.py
+##project-structure
