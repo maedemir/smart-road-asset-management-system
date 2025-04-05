@@ -31,7 +31,7 @@ This project leverages state-of-the-art techniques such as deep learning-based o
 - **Scalable Architecture:** Designed to process large datasets and adaptable to various environments.
 
 ## project-structure
-- For the object detection model training, check the [YOLOv5 training notebook](https://github.com/maedemir/smart-road-asset-management-system/blob/main/yolov5s6%20(1).ipynb)
+- For the object detection model fine-tuning, check the [YOLOv5 training notebook](https://github.com/maedemir/smart-road-asset-management-system/blob/main/yolov5s6%20(1).ipynb)
 - For ZoeDepth + YOLOv5 integration, check the [ZoeDepth&Yolov5s notebook](https://github.com/maedemir/smart-road-asset-management-system/blob/main/ZoeDepth%26Yolov5s%20(1).ipynb)
 - For storing the info in postGIS database, check the [postgis.py](https://github.com/maedemir/smart-road-asset-management-system/blob/main/postgis.py)
 - For conversion of pixel coordinate to real-world coordinate check [camera-pose.py](https://github.com/maedemir/smart-road-asset-management-system/blob/main/camera-pose.py)
