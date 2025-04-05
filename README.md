@@ -8,9 +8,7 @@ This repository contains the code for my B.Sc. Final Project in Computer Enginee
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [Results](#results)
-- [Future Work](#future-work)
-- [Credits](#credits)
-- [License](#license)
+- [Dataset](#Dataset)
 
 ## Overview
 
@@ -37,3 +35,19 @@ This project leverages state-of-the-art techniques such as deep learning-based o
 - For ZoeDepth + YOLOv5 integration, check the [ZoeDepth&Yolov5s notebook](https://github.com/maedemir/smart-road-asset-management-system/blob/main/ZoeDepth%26Yolov5s%20(1).ipynb)
 - For storing the info in postGIS database, check the [postgis.py](https://github.com/maedemir/smart-road-asset-management-system/blob/main/postgis.py)
 - For conversion of pixel coordinate to real-world coordinate check [camera-pose.py](https://github.com/maedemir/smart-road-asset-management-system/blob/main/camera-pose.py)
+
+## Results
+
+<img width="592" alt="image" src="https://github.com/maedemir/smart-road-asset-management-system/assets/72692826/a557429b-3021-4fec-8663-42eb87e7a050">
+
+## Depth Estimation Using ZoeDepth
+<img width="610" alt="image" src="https://github.com/maedemir/smart-road-asset-management-system/assets/72692826/951e88f0-2bb8-454a-be11-609918fb515f">
+<img width="440" alt="image" src="https://github.com/maedemir/smart-road-asset-management-system/assets/72692826/db105ba8-f618-4720-9395-934cfd187cd8">
+
+## QGIS Visualization of Assets
+<img width="596" alt="image" src="https://github.com/maedemir/smart-road-asset-management-system/assets/72692826/0b46ba0d-6c51-4f30-93b0-e15e322fb5ba">
+
+
+## Dataset
+
+For accessing the dataset, please contact me: maedemir@student.ubc.ca
