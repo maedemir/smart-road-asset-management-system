@@ -19,14 +19,18 @@ This repository contains the code for my B.Sc. Final Project in Computer Enginee
 **Smart Road Asset Management System** is designed to:
 - Automatically detect and classify road assets (e.g., traffic signs, potholes, barriers) from images.
 - Integrate geospatial data with detection results for a comprehensive asset management solution.
+- Utilize ZoeDepth for monocular depth estimation, providing depth cues from single images.
+- Store and visualize detected assets using QGIS and PostGIS for detailed spatial analysis.
 - Provide a user-friendly visualization interface for stakeholders to review asset conditions and plan maintenance activities.
 
-This project leverages state-of-the-art techniques such as deep learning-based object detection, image processing, and GIS integration to address real-world challenges in infrastructure management.
+This project leverages state-of-the-art techniques such as deep learning-based object detection, image processing, GIS integration, and advanced depth estimation to address real-world challenges in infrastructure management.
 
 ## Features
 
 - **Automated Detection:** Uses advanced object detection algorithms to identify various road assets.
-- **Geospatial Integration:** Combines detection results with geographic data for a comprehensive overview.
+- **Monocular Depth Estimation:** Integrates ZoeDepth to estimate depth from single images.
+- **Geospatial Integration:** Combines detection results with geographic data and stores them in PostGIS, enabling robust spatial queries.
+- **Visualization:** Uses QGIS for visualizing detected assets and detailed geospatial analysis.
 - **User-friendly Interface:** Provides clear visualizations and reports for quick decision-making.
 - **Scalable Architecture:** Designed to process large datasets and adaptable to various environments.
 
@@ -56,7 +60,7 @@ To set up the project locally, follow these steps:
 
 4. **Configure Environment:**
 
-    Modify the configuration files (if any) to set paths for your datasets, models, and output directories.
+    Modify the configuration files (if any) to set paths for your datasets, models, and output directories. Make sure to configure the connection to your PostGIS database.
 
 ## Usage
 
@@ -64,16 +68,3 @@ Run the main script to start the system:
 
 ```bash
 python src/main.py
-```
-
-<img width="592" alt="image" src="https://github.com/maedemir/smart-road-asset-management-system/assets/72692826/a557429b-3021-4fec-8663-42eb87e7a050">
-
-## Depth Estimation Using ZoeDepth
-<img width="440" alt="image" src="https://github.com/maedemir/smart-road-asset-management-system/assets/72692826/db105ba8-f618-4720-9395-934cfd187cd8">
-
-
-## QGIS Visualization of Assets
-<img width="596" alt="image" src="https://github.com/maedemir/smart-road-asset-management-system/assets/72692826/0b46ba0d-6c51-4f30-93b0-e15e322fb5ba">
-
-
-Note: for accessing the dataset, please contact me: maedemir@student.ubc.ca
