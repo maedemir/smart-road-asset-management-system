@@ -32,4 +32,4 @@ This project leverages state-of-the-art techniques such as deep learning-based o
 - **User-friendly Interface:** Provides clear visualizations and reports for quick decision-making.
 - **Scalable Architecture:** Designed to process large datasets and adaptable to various environments.
 
-##project-structure
+## project-structure
