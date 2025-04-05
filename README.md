@@ -1,10 +1,70 @@
-# smart-road-asset-management-system-settings
+# Smart Road Asset Management System
 
-Collecting and managing low-cost and efficient data of road assets such as pedestrian bridges, speed cameras, and similar items is a vital element for the operation, maintenance, and preservation of urban and road management systems. Despite its importance, the current method of collecting road asset data is mostly time-consuming and manual.
-The goal of this project is to create an intelligent system for road asset management that can automatically identify road assets and then, visualize them in geographic information system. This system uses the YOLO version 5 object detection model to detect assets present in images across ten different classes. Furthermore, by extracting pixel depth using a depth detection model, the depth of each pixel is obtained, and subsequently, with the help of existing transformations, pixel coordinates can be converted into real-world coordinates. Additionally, this project enables asset visualization by creating a database and utilizing a geographic information system.
+This repository contains the code for my B.Sc. Final Project in Computer Engineering at Amirkabir University of Technology. The project focuses on developing a smart system for managing road assets using advanced computer vision and machine learning techniques. The aim is to automate the detection and evaluation of road conditions to assist in efficient maintenance and planning.
 
-Key Words: Asset management, object detection, deep learning, geographic information system (GIS)
-## Object detection using YOLOv5
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Results](#results)
+- [Future Work](#future-work)
+- [Credits](#credits)
+- [License](#license)
+
+## Overview
+
+**Smart Road Asset Management System** is designed to:
+- Automatically detect and classify road assets (e.g., traffic signs, potholes, barriers) from images.
+- Integrate geospatial data with detection results for a comprehensive asset management solution.
+- Provide a user-friendly visualization interface for stakeholders to review asset conditions and plan maintenance activities.
+
+This project leverages state-of-the-art techniques such as deep learning-based object detection, image processing, and GIS integration to address real-world challenges in infrastructure management.
+
+## Features
+
+- **Automated Detection:** Uses advanced object detection algorithms to identify various road assets.
+- **Geospatial Integration:** Combines detection results with geographic data for a comprehensive overview.
+- **User-friendly Interface:** Provides clear visualizations and reports for quick decision-making.
+- **Scalable Architecture:** Designed to process large datasets and adaptable to various environments.
+
+## Installation
+
+To set up the project locally, follow these steps:
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/yourusername/Smart-Road-Asset-Management-System.git
+    ```
+
+2. **Navigate to the project directory:**
+
+    ```bash
+    cd Smart-Road-Asset-Management-System
+    ```
+
+3. **Install dependencies:**
+
+    Ensure you have Python 3.8+ installed. Then run:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Configure Environment:**
+
+    Modify the configuration files (if any) to set paths for your datasets, models, and output directories.
+
+## Usage
+
+Run the main script to start the system:
+
+```bash
+python src/main.py
+```
 
 <img width="592" alt="image" src="https://github.com/maedemir/smart-road-asset-management-system/assets/72692826/a557429b-3021-4fec-8663-42eb87e7a050">
 
