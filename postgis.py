@@ -32,7 +32,7 @@ if __name__ == '__main__':
     conn = psycopg2.connect(database="B.sc db",
                             host="localhost",
                             user="postgres",
-                            password="qazwsx@#12345",
+                            password="ur pass",
                             port="1478")
     cursor = conn.cursor()
     image_path = "/Users/maedehmirzazadeh/Downloads/final_dataset_merged/images"
